@@ -72,5 +72,3 @@ Application permettant de gérer des fiches patients, en offrant des fonctionnal
 <img src="captures/screen8.png" alt="Ajout d'un patient" width="500">
 
 *Fonction de recherche de consultation par ID du patient.*
-
-
