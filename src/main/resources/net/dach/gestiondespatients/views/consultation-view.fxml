@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="net.dach.gestiondespatients.controllers.ConsultationController" spacing="15" alignment="CENTER" styleClass="container">
+    <padding>
+        <Insets top="15" right="15" bottom="15" left="15" />
+    </padding>
+
+    <Text styleClass="title-text">Consultations</Text>
+
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <TextField fx:id="searchField" promptText="Rechercher par ID patient" HBox.hgrow="ALWAYS"/>
+        <Button text="Rechercher" onAction="#searchConsultation"/>
+        <Button text="Réinitialiser" onAction="#resetSearch"/>
+    </HBox>
+
+    <!-- Form section -->
+    <HBox spacing="15">
+        <VBox spacing="10" HBox.hgrow="ALWAYS">
+            <ComboBox fx:id="patientCombo" promptText="Sélectionner un patient" maxWidth="Infinity"/>
+            <DatePicker fx:id="datePicker" promptText="Date de consultation" maxWidth="Infinity"/>
+            <TextField fx:id="motifField" promptText="Motif"/>
+            <ComboBox fx:id="statutCombo" promptText="Statut" maxWidth="Infinity"/>
+        </VBox>
+
+        <VBox spacing="10" alignment="CENTER">
+            <Button text="Ajouter" onAction="#addConsultation" prefWidth="100" styleClass="add-button"/>
+            <Button text="Modifier" onAction="#updateConsultation" prefWidth="100" styleClass="modify-button"/>
+            <Button text="Supprimer" onAction="#deleteConsultation" prefWidth="100" styleClass="delete-button"/>
+            <Button text="Effacer" onAction="#clearForm" prefWidth="100" styleClass="clear-button"/>
+        </VBox>
+    </HBox>
+
+    <!-- Table section -->
+    <TableView fx:id="consultationTable" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" prefWidth="50"/>
+            <TableColumn fx:id="patientColumn" text="Patient" prefWidth="150"/>
+            <TableColumn fx:id="dateColumn" text="Date" prefWidth="100"/>
+            <TableColumn fx:id="motifColumn" text="Motif" prefWidth="150"/>
+            <TableColumn fx:id="statutColumn" text="Statut" prefWidth="100"/>
+        </columns>
+    </TableView>
+</VBox>
