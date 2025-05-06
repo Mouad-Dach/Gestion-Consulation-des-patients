@@ -33,43 +33,43 @@ Application permettant de gérer des fiches patients, en offrant des fonctionnal
 ## 📸 Captures d'écran
 
 ### ➕ Ajout d'un patient
-<img src="captures/screen1.png" alt="Ajout d'un patient" width="500">
-<img src="captures/screen2.png" alt="Ajout d'un patient" width="500">
+<img src="Captures/screen1.png" alt="Ajout d'un patient" width="500">
+<img src="Captures/screen2.png" alt="Ajout d'un patient" width="500">
 
 *Capture d'écran montrant le formulaire d'ajout d'un nouveau patient*
 
 
 ### ✏️ Modification d'un patient
-<img src="captures/screen3.png" alt="Ajout d'un patient" width="500">
-<img src="captures/screen4.png" alt="Ajout d'un patient" width="500">
+<img src="Captures/screen3.png" alt="Ajout d'un patient" width="500">
+<img src="Captures/screen4.png" alt="Ajout d'un patient" width="500">
 
 *Capture d'écran montrant le formulaire de modification des informations d'un patient son numero de telephone*
 
 ### 🗑️ Suppression d'un patient
-<img src="captures/screen5.png" alt="Ajout d'un patient" width="500">
-<img src="captures/screen6.png" alt="Ajout d'un patient" width="500">
+<img src="Captures/screen5.png" alt="Ajout d'un patient" width="500">
+<img src="Captures/screen6.png" alt="Ajout d'un patient" width="500">
 
 *Capture d'écran montrant la confirmation de suppression d'un patient*
 
 ## 📸 Captures d'écran des consultations
 
 ### 🗓️ Ajout d'une consultation
-<img src="captures/screen7.png" alt="Ajout d'un patient" width="500">
+<img src="Captures/screen7.png" alt="Ajout d'un patient" width="500">
 
 *Formulaire d'ajout d'une consultation avec la sélection du patient, la date, le motif et le statut de la consultation.*
 
 ### 🗑️ Suppression d'une consultation
-<img src="captures/screen9.png" alt="Ajout d'un patient" width="500">
+<img src="Captures/screen9.png" alt="Ajout d'un patient" width="500">
 
 *Capture d'écran montrant la confirmation de suppression d'une consultation*
 
 ### ✏️ Modification d'un statut de consultation
-<img src="captures/screen10.png" alt="Ajout d'un patient" width="500">
+<img src="Captures/screen10.png" alt="Ajout d'un patient" width="500">
 
 *Capture d'écran montrant la modification de statut d'un patient*
 
 ### 🔍 Recherche de consultation par ID
-<img src="captures/screen8.png" alt="Ajout d'un patient" width="500">
+<img src="Captures/screen8.png" alt="Ajout d'un patient" width="500">
 
 *Fonction de recherche de consultation par ID du patient.*
 
